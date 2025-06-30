@@ -71,8 +71,8 @@ IF OBJECT_ID(' bronze.erp_px_cat_g1v2', 'U') IS  NULL
 
 CREATE TABLE bronze.erp_px_cat_g1v2(
 
-	ID				  NVARCHAR(50),
-	CAT			  	  CHAR(50),
+	ID			NVARCHAR(50),
+	CAT			CHAR(50),
 	SUBCAT		  	CHAR(50),
 	MAINTENANCE		CHAR(50)
 );
